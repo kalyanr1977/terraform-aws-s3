@@ -5,12 +5,6 @@ variable "bucket_name" {
   type        = string
 }
 
-variable "aws_region" {
-  description = "Name of the AWS Region."
-  type        = string
-  default = "ap-southeast-1"
-}
-
 variable "tags" {
   description = "Tags to set on the bucket."
   type        = map(string)
